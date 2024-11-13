@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --orange: 36 100% 61% / 100%;
+  --bleu: 206 100% 61% / 100%;
+  --GrisText: 173 4% 80%;
+  --GrisDark: 0 0 40% / 100%;
+  --GrisInter: 0 0% 20% / 45%;
+  --GrisClair: 0 0% 20%/ 20%;
+  --GrisTresClair: 0 0% 60%/ 60%;
+  --GrisMoyenClair: 0 0% 50%/ 60%;
+
+  /* --------------CONTEXTUALISATION */
+  --clrOrange: var(--orange);
+  --clrBleu: var(--bleu);
+  --clrGrisText: var(--GrisText);
+  --clrGrisDark: var(--GrisDark);
+  --clrGrisInter: var(--GrisInter);
+  --clrGrisClair: var(--GrisClair);
+  --clrGrisTresClair: var(--GrisTresClair);
+  --clrGrisMoyenClair: var(--GrisMoyenClair);
+}
